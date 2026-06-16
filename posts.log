@@ -1,0 +1,49 @@
+2026-06-16 21:53:36 | INFO | ─── Запуск публикации ───
+2026-06-16 21:53:36 | INFO | Генерация фразы (промпт #1)...
+2026-06-16 21:53:59 | WARNING | Генерация через ИИ — сетевая ошибка (попытка 1/3): ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+2026-06-16 21:54:24 | WARNING | Генерация через ИИ — сетевая ошибка (попытка 2/3): ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+2026-06-16 21:54:59 | WARNING | Генерация через ИИ — таймаут (попытка 3/3): HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=30)
+2026-06-16 21:54:59 | ERROR | Генерация через ИИ — все попытки исчерпаны: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=30)
+2026-06-16 21:54:59 | INFO | Использована запасная фраза
+2026-06-16 21:55:20 | WARNING | Отправка в Telegram — таймаут (попытка 1/3): HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8558251289:AAHvOsFOyNPC06wj8Luq9OBZQk4WmnpNHQE/sendMessage (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.telegram.org', port=443) at 0x14bfe083ed0>, 'Connection to api.telegram.org timed out. (connect timeout=30)'))
+2026-06-16 21:55:46 | WARNING | Отправка в Telegram — таймаут (попытка 2/3): HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8558251289:AAHvOsFOyNPC06wj8Luq9OBZQk4WmnpNHQE/sendMessage (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.telegram.org', port=443) at 0x14bfe170190>, 'Connection to api.telegram.org timed out. (connect timeout=30)'))
+2026-06-16 21:56:12 | WARNING | Отправка в Telegram — таймаут (попытка 3/3): HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8558251289:AAHvOsFOyNPC06wj8Luq9OBZQk4WmnpNHQE/sendMessage (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.telegram.org', port=443) at 0x14bfe170410>, 'Connection to api.telegram.org timed out. (connect timeout=30)'))
+2026-06-16 21:56:12 | ERROR | Отправка в Telegram — все попытки исчерпаны: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8558251289:AAHvOsFOyNPC06wj8Luq9OBZQk4WmnpNHQE/sendMessage (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.telegram.org', port=443) at 0x14bfe170410>, 'Connection to api.telegram.org timed out. (connect timeout=30)'))
+2026-06-16 21:56:12 | ERROR | ❌ Не удалось опубликовать сообщение
+2026-06-16 21:56:12 | INFO | ─── Публикация завершена ───
+
+2026-06-16 22:19:45 | INFO | ─── Запуск публикации ───
+2026-06-16 22:19:45 | INFO | Генерация фразы (промпт #2)...
+2026-06-16 22:19:48 | WARNING | Генерация через ИИ — сетевая ошибка (попытка 1/3): 401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions
+2026-06-16 22:19:54 | WARNING | Генерация через ИИ — сетевая ошибка (попытка 2/3): 401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions
+2026-06-16 22:20:01 | WARNING | Генерация через ИИ — сетевая ошибка (попытка 3/3): 401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions
+2026-06-16 22:20:01 | ERROR | Генерация через ИИ — все попытки исчерпаны: 401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions
+2026-06-16 22:20:01 | INFO | Использована запасная фраза
+2026-06-16 22:20:06 | INFO | ✅ Опубликовано: Твоя победа уже случилась — просто ты ещё не видишь её целиком. Сегодняшние труд...
+2026-06-16 22:20:06 | INFO | ─── Публикация завершена ───
+
+2026-06-16 22:20:22 | INFO | Генерация фразы (промпт #1)...
+2026-06-16 22:20:23 | WARNING | Генерация через ИИ — сетевая ошибка (попытка 1/3): 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions
+2026-06-16 22:20:30 | WARNING | Генерация через ИИ — сетевая ошибка (попытка 2/3): 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions
+2026-06-16 22:20:37 | WARNING | Генерация через ИИ — сетевая ошибка (попытка 3/3): 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions
+2026-06-16 22:20:37 | ERROR | Генерация через ИИ — все попытки исчерпаны: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions
+2026-06-16 22:20:37 | INFO | Использована запасная фраза
+2026-06-16 22:56:10 | INFO | ─── Запуск публикации ───
+2026-06-16 22:56:10 | INFO | Генерация фразы (промпт #1)...
+2026-06-16 22:56:13 | INFO | Фраза сгенерирована ИИ
+2026-06-16 22:56:15 | INFO | ✅ Опубликовано: Ты построил дело, о котором мечтал. Оно кормит семью и вдохновляет других.  
+Зна...
+2026-06-16 22:56:15 | INFO | ─── Публикация завершена ───
+
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 00:00 (Europe/Moscow)
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 02:00 (Europe/Moscow)
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 04:00 (Europe/Moscow)
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 06:00 (Europe/Moscow)
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 08:00 (Europe/Moscow)
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 10:00 (Europe/Moscow)
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 12:00 (Europe/Moscow)
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 14:00 (Europe/Moscow)
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 16:00 (Europe/Moscow)
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 18:00 (Europe/Moscow)
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 20:00 (Europe/Moscow)
+2026-06-16 19:10:04 | INFO | Запланировано ежедневно в 22:00 (Europe/Moscow)
