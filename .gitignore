@@ -1,7 +1,0 @@
-.env
-posts.log
-__pycache__/
-*.pyc
-.venv/
-venv/
-*.log
